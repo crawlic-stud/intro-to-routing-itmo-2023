@@ -1,3 +1,13 @@
+University: [ITMO University](https://itmo.ru/ru/)
+Faculty: [FICT](https://fict.itmo.ru)
+Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introduction-in-routing)
+Year: 2023/2024
+Group: K33212
+Author: Kuznetsov Nikita Sergeevich
+Lab: Lab1
+Date of create: 29.10.2023
+Date of finished: 29.10.2023
+
 # Отчет по лабораторной работе №1 "Установка ContainerLab и развертывание тестовой сети связи"
 
 ## Цель работы
