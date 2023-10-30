@@ -77,5 +77,30 @@ mgmt:
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/eb2d02d5-87f6-416b-b2a1-62941e7f454d)
 
+### Конфигурация R01:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/4181beee-23f2-497f-9975-dadc4bc52d0a)
+
+
+### Конфигурация SW01.L3.01
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/99d7eb71-b4f1-43eb-bf6d-6fd452771fed)
+
+
+### Конфигурация SW02.L3.01
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/b9a7d2da-9e3c-4d9b-a13d-1ef63e002ed1)
+
+
+### Конфигурация SW02.L3.02
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/cf76904c-fd33-4e40-bf5c-9da5dc7d21c2)
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/ea308c0f-90db-452b-b8bf-a7291ff1c6e2)
+
+
+
+
+
 
 
