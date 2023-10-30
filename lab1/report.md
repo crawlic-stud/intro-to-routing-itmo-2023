@@ -62,3 +62,20 @@ mgmt:
   network: static
   ipv4-subnet: 192.168.1.0/24
 ```
+
+Запустить данный код можно с помощью команды ```sudo containerlab deploy lab1.clab.yml```, в результате чего всё успешно проходит и выводится информация о запущенных контейнерах:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/741cc2a8-0642-4dd0-b1ad-f889c6b0cd66)
+
+Также, можно посмотреть получившуюся схему от containerlab, используя команду ```sudo containerlab graph```, и сравнить её с схемой, нарисованной выше от руки:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/5f848448-a6e3-45ce-be4f-4c755668a23e)
+
+Как можно заметить, схемы по своей сути идентичны.
+
+Далее, необходимо провести конфигурацию каждого из устройств (роутер и три свитча). Для этого необходимо зайти в командный интерфейс контейнера через ```telnet <container ip>```:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/eb2d02d5-87f6-416b-b2a1-62941e7f454d)
+
+
+
