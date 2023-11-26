@@ -30,6 +30,23 @@
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/b79506de-66e8-4fe9-847f-5558f9cd2dbd)
 
+### Проверка доступности
+
+1. Пинг с Москвы во Франкфурт и Берлин:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/2cd57997-9266-4636-be8e-6e3cd576a4df)
+
+2. Пинг с Франкфурта в Москву и Берлин
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/1e55e6bb-a48a-4b3c-af2d-9df4ab30acf2)
+
+3. Пинг с Берлина в Москву и Франкфурт
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/17ad1280-871a-4c68-ae90-acc118105398)
+
+
+
+
 
 
 
