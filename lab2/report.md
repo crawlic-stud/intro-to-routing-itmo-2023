@@ -16,7 +16,10 @@
 
 ## Ход работы
 
-![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/4314499f-09cf-4e3e-b824-7702e9fb330a)
+По заданию необходимо было реализовать сеть для связи трех компьютеров в разных городах (Москве, Франкфурте и Берлине), примерная схема сети выглядит следующим образом:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/1e0c3399-a591-4ac1-b20f-0c8e5f114c52)
+
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/467a33e4-3063-4d4f-b5be-7024beaa3bad)
 
