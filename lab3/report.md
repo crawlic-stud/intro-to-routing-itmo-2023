@@ -84,6 +84,34 @@ topology:
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/b836dd93-743e-4b27-8843-a5dd0469cb96)
 
 
+### Настройка R01.NY
 
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/72bc42e2-df18-4cd1-b6d8-745f3818537b)
 
+### Настройка R01.LND
 
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/96c32369-9386-46f0-b50f-242d026f01da)
+
+### Настройка R01.LBN
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/1c5c8062-75fc-4b14-94c9-8752483419f9)
+
+### Настройка R01.HKI
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/e6b7dda9-02fe-4086-9fd6-a9567577279f)
+
+### R01.MSK
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/e2b43a0a-7398-4f61-88ed-d3f0e48fd22b)
+
+### R01.SPB
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/82f73c94-ffbd-4b67-9dfc-e767a33f9b97)
+
+### SGI_Prism
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/c5a752e8-73d1-4748-b0e1-65d33e82d7d2)
+
+### PC1
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/a3c5e97f-1619-4f69-94e4-bd3d9084bdaf)
