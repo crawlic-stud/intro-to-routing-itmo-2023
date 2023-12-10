@@ -163,4 +163,6 @@ topology:
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/35b6b41e-2ac3-4d3a-a02d-707425c313c6)
 
+## Вывод
 
+В ходе выполнения данной лабораторной работы были изучены протоколы OSPF, MPLS, EoMPLS и механизмаы их организации.
