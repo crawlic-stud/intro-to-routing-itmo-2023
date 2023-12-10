@@ -83,10 +83,27 @@ topology:
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/b836dd93-743e-4b27-8843-a5dd0469cb96)
 
+Далее, необходимо было настроить сеть, состояющую из:
+ - 2 конечных устройств
+ - 2 пограничных роутера с EoMPLS
+ - 4 промежуточных роутера с MPLS
+
+Внутрення маршрутизация будет проводиться по OSPF и MPLS. Сначала, рассмотрим настройку с роутера R01.NY (полные тексты скриптов настроек можно найти в директории /scripts).
 
 ### Настройка R01.NY
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/72bc42e2-df18-4cd1-b6d8-745f3818537b)
+
+Здесь происходят следующие действия:
+
+1. Добавление loopback интерфейса для обеспечения бесперебойной работы OSPF и MPLS. 
+1. Включение MPLS и добавление интерфейсов ```eth3``` и ```eth4```
+1. Конфигурация EoMPLS для устройства SGI Prism через добавление на интерфейсы ```bridge``` и ```eth2```, где:
+   - cisco-style=yes - флаг указывает на то, что id будет указан так, как это делается на устройствах cisco
+   - cisco-style-id=222 - id vpls интерфейса. Он должен быть одинаковым у соединяемых vpls интерфейсов
+   - disabled=no - флаг включения/выключения интерфейса
+   - name=EoMPLS - название интерфейса
+   - remote-peer=10.10.10.6 - ip адрес, который был указан у второго устройства в поле transport-address
 
 ### Настройка R01.LND
 
@@ -116,6 +133,18 @@ topology:
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/a3c5e97f-1619-4f69-94e4-bd3d9084bdaf)
 
+## Проверка
+
+### Результат конфигурации MPLS
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/6982524c-871a-42d0-9c65-4b8f0b0fbad0)
+
+Здесь можно заметить все интерфейсы (```INTERFACE```) и адреса (```DESTINATION```), которые были настроены ранее. 
+
+### Проверка пингов от PC1 до SGI Prism:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/594614d5-27cf-459a-a525-47cc233d374f)
+
 ### Таблица маршрутизации для PC1 и SGI Prism
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/19f4d53b-41a9-4787-8501-381494682dad)
@@ -123,3 +152,5 @@ topology:
 ### Трассировка от R01.SPB до R01.NY
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/14f8def0-316f-4639-aaff-20fe12bc043c)
+
+
