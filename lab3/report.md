@@ -116,7 +116,10 @@ topology:
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/a3c5e97f-1619-4f69-94e4-bd3d9084bdaf)
 
-### Таблица маршрутизации 
+### Таблица маршрутизации для PC1 и SGI Prism
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/19f4d53b-41a9-4787-8501-381494682dad)
 
+### Трассировка от R01.SPB до R01.NY
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/14f8def0-316f-4639-aaff-20fe12bc043c)
