@@ -79,3 +79,11 @@ topology:
     - endpoints: ["R01.MSK:eth2", "R01.SPB:eth1"]
     - endpoints: ["R01.SPB:eth3", "PC1:eth1"]
 ```
+После деплоя лабораторной работы, репрезентация через ```containerlab graph``` выглядела следующим образом:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/b836dd93-743e-4b27-8843-a5dd0469cb96)
+
+
+
+
+
