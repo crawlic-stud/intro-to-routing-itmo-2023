@@ -100,18 +100,23 @@ topology:
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/e6b7dda9-02fe-4086-9fd6-a9567577279f)
 
-### R01.MSK
+### Настройка R01.MSK
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/e2b43a0a-7398-4f61-88ed-d3f0e48fd22b)
 
-### R01.SPB
+### Настройка R01.SPB
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/82f73c94-ffbd-4b67-9dfc-e767a33f9b97)
 
-### SGI_Prism
+### Настройка SGI_Prism
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/c5a752e8-73d1-4748-b0e1-65d33e82d7d2)
 
-### PC1
+### Настройка PC1
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/a3c5e97f-1619-4f69-94e4-bd3d9084bdaf)
+
+### Таблица маршрутизации 
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/19f4d53b-41a9-4787-8501-381494682dad)
+
