@@ -4,7 +4,7 @@
 - Year: 2023/2024
 - Group: K33212
 - Author: Kuznetsov Nikita Sergeevich
-- Lab: Lab3
+- Lab: Lab2
 - Date of create: 01.12.2023
 - Date of finished: 09.12.2023
 
