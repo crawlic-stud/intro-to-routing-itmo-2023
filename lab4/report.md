@@ -165,20 +165,20 @@ topology:
 
  - для R01.SVL:
 
-   ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/2d38ba10-55a5-46b9-8c6f-751d72ce3192)
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/2d38ba10-55a5-46b9-8c6f-751d72ce3192)
 
 3. Проверку доступности через пинг, используя таблицу маршрутизации ```VRF_DEVOPS```:
 
  - для R01.NY:
 
-   ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/5abcd414-34fd-409d-b630-4d16aa8c812c)
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/5abcd414-34fd-409d-b630-4d16aa8c812c)
 
  - для R01.SPB:
 
-   ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/41938ba1-f277-4ef1-ac0e-9783cb9d76e8)
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/41938ba1-f277-4ef1-ac0e-9783cb9d76e8)
 
  - для R01.SVL:
 
-  ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/b2ad770a-03a1-4076-a7a1-76da4f788606)
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/b2ad770a-03a1-4076-a7a1-76da4f788606)
 
 
