@@ -4,9 +4,9 @@
 - Year: 2023/2024
 - Group: K33212
 - Author: Kuznetsov Nikita Sergeevich
-- Lab: Lab3
-- Date of create: 01.12.2023
-- Date of finished: 09.12.2023
+- Lab: Lab4
+- Date of create: 09.12.2023
+- Date of finished: 17.12.2023
 
 # Отчет по лабораторной работе №4 "Эмуляция распределенной корпоративной сети связи, настройка iBGP, организация L3VPN, VPLS"
 
