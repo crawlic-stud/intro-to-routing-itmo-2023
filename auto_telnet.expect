@@ -1,0 +1,16 @@
+#!/usr/bin/expect -f
+if {[llength $argv] != 1} {
+   puts "Usage [file tail [info script]] remote_host_name"
+} else {
+   log_user 1
+   set host [lindex $argv 0]
+   set user "admin"
+   set password "admin"
+   spawn telnet "$host"
+   expect "ogin:"
+   exp_send "$user\r"
+   expect "assword:"
+   exp_send "$password\r"
+   expect "(.*)"
+   interact
+}
