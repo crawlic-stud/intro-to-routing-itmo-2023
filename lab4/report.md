@@ -144,15 +144,15 @@ topology:
 1. Связность VRF с помощью команды ```routing bgp vpnv4-route print```:
  - для R01.NY:
    
-   ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/690cc3b9-e1a1-49f8-8523-bf4e8c298181)
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/690cc3b9-e1a1-49f8-8523-bf4e8c298181)
 
  - для R01.SPB:
  
- ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/65e1b41d-efc7-4f95-98fc-91a7bc28de0d)
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/65e1b41d-efc7-4f95-98fc-91a7bc28de0d)
 
  - для R01.SVL:
 
- ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/5b1119d8-1cd4-407f-ab96-4d8a77b40945)
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/5b1119d8-1cd4-407f-ab96-4d8a77b40945)
  
 2. Таблицы маршрутизации в WEB-интерфейсе по адресу ```http://{mgmt-ip}/webfig```:
  - для R01.NY:
@@ -161,7 +161,7 @@ topology:
 
  - для R01.SPB:
  
- ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/78ece813-0b58-4ea5-a9d5-041d7215ebef)
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/78ece813-0b58-4ea5-a9d5-041d7215ebef)
 
  - для R01.SVL:
 
@@ -181,4 +181,52 @@ topology:
 
 ![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/b2ad770a-03a1-4076-a7a1-76da4f788606)
 
+
+### 2 часть. Настройка VPLS.
+
+В начеле, необходимо было базово настроить устройства PC, выдать адреса и включить DHCP:
+
+- настройка PC1:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/4d46c320-2607-4a7e-8778-60bf4a51a951)
+
+- настройка PC2:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/1be44a6c-c539-4f76-9165-ad05fe346203)
+
+- настройка PC3:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/639a9bd3-db85-4476-8d80-a37364dd6b00)
+
+Далее, необходимо было обновить конфигурацию роутеров NY, SPB и SVL. Ниже приведена конфигурация для R01.NY, полные конфигурации для SPB и SVL можно просмотреть в папке ```/scripts```:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/53588a71-1828-4af8-a06e-74354c498834)
+
+В данной конфигурации происходит следующее (часть пунктов уже упомянута в описании предыдущей конфигурации):
+- добавляется второй мост для VPLS
+- создается VPLS туннели, связывающиеся с узлами через IP-адреса 4.4.4.4 и 6.6.6.6
+- указываются MAC-адреса и идентификаторы VPLS
+- устанавливается идентификатор роутера для BGP и OSPF
+- добавляется пир BGP
+- назначаются IP адреса для интерфейсов
+
+После всех настроек, можно проверить доступность PC в сети:
+
+1. пинг c PC1:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/1d62e4ef-ada7-418a-90a2-8c5148b1c61e)
+
+2. пинг c PC2:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/83fd0a72-b3d5-4b1b-8174-b45ad08f0a58)
+
+3. пинг c PC3:
+
+![image](https://github.com/crawlic-stud/intro-to-routing-itmo-2023/assets/71011093/e49f163f-ab92-4a49-8805-8fe93f490f77)
+
+Как можно заметить - устройства пингуются, а значит настройка проведена успешно.
+
+## Вывод: 
+
+В данной лабораторной работе, на праактике были изучены протоколы BGP, MPLS и правила организации L3VPN и VPLS.
 
